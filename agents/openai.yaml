@@ -1,0 +1,4 @@
+interface:
+  display_name: "教案编制器"
+  short_description: "从课程材料与大纲编制、续写、审查教案，并按需生成规范 Word 文档"
+  default_prompt: "Use $lesson-plan-compiler to draft, review, or compile this course teaching plan (教案)."

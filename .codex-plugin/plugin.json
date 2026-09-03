@@ -1,0 +1,35 @@
+{
+  "name": "lesson-plan-compiler",
+  "version": "0.1.0",
+  "description": "Draft, review, and compile standards-compliant university course teaching plans (教案) from course materials and syllabi into Markdown and Word.",
+  "author": {
+    "name": "Teaching Works Lab",
+    "url": "https://github.com/Teaching-Works-Lab"
+  },
+  "homepage": "https://github.com/Teaching-Works-Lab/lesson-plan-compiler",
+  "repository": "https://github.com/Teaching-Works-Lab/lesson-plan-compiler",
+  "keywords": [
+    "education",
+    "teaching-plan",
+    "lesson-plan",
+    "syllabus",
+    "word"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Lesson Plan Compiler",
+    "shortDescription": "Draft and compile university course teaching plans (教案).",
+    "longDescription": "Convert course materials, a course syllabus (大纲), and optional training-program evidence into a reusable course teaching plan (教案): plan, draft, review, check, and compile an editable Markdown working document and a standards-compliant Word document.",
+    "developerName": "Teaching Works Lab",
+    "category": "Education",
+    "capabilities": [
+      "Draft course teaching plans (教案) from course materials and syllabi",
+      "Review and check teaching-plan structure and placeholders",
+      "Compile teaching plans to standards-compliant Word"
+    ],
+    "defaultPrompt": [
+      "Draft a teaching plan (教案) from these course materials and syllabus.",
+      "Compile this teaching plan to a standards-compliant Word document."
+    ]
+  }
+}
