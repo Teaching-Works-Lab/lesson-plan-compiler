@@ -82,3 +82,7 @@ py -3.12 scripts/lesson_plan.py inspect --input 教案.docx --report inspection.
 ## 隐私
 
 不提交课程包、原始教学材料、转换缓存、构建状态、生成产物、学生数据、本地路径或私人审查日志。公开资产与示例保持虚构并去身份化。
+
+## 配套规范
+
+本工具遵循 [lesson-plan-authoring-skill](https://github.com/Teaching-Works-Lab/lesson-plan-authoring-skill) 的 Markdown-first 编制纪律：**Markdown 是内容权威，Word 是编译呈现产物**；内容 QA 通过后才编译 Word；正常流程禁止 Word→Markdown 反向创作（仅一次性遗留迁移例外）。知识脉络图、逐课记录、交付包与视觉 QA 的契约详见该规范仓库的 `references/`。
