@@ -7,6 +7,20 @@
 
 这是一个可复用的 Codex Skill，可单独使用，也可作为 [Teaching Works Lab](https://github.com/Teaching-Works-Lab) 课程工作流的下游（消费 `course-foundation-builder` 产出的课程基座或 `intelligent-manufacturing-syllabus` 的课程依据）。
 
+## WorkBuddy 安装（Skill）
+
+本仓库根目录的 `SKILL.md` 即 WorkBuddy Skill 入口，直接克隆到 WorkBuddy 的 skills 目录即可使用：
+
+```bash
+git clone https://github.com/Teaching-Works-Lab/lesson-plan-compiler.git ~/.workbuddy/skills/lesson-plan-compiler
+```
+
+保留目录结构，不要单独复制 `SKILL.md`——`references/`、`data/`、`scripts/` 都是 Skill 的组成部分。安装后无需重启或注册，下次对话即可通过 `@skill:lesson-plan-compiler` 显式调用，或由 WorkBuddy 按 Skill 描述自动选择。
+
+运行环境：运行依赖见仓库脚本与依赖清单；Word 编译需要模板与 LibreOffice/Word 环境。
+
+WorkBuddy 通过 `~/.workbuddy/skills/` 目录发现 Skill，不使用 Codex Marketplace；两种方式可并存，互不干扰。
+
 ## 它做什么
 
 1. **抽取课程事实**：从 PPT / Word / PDF / Markdown / 教材 / 教案 / 培养方案 / 大纲中提取课程信息与教学内容，记录来源与证据角色。
